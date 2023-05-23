@@ -1,0 +1,159 @@
+<body class="raining">
+  <div id="menu">
+    <h1 id="title" class="coloring">MYTHSLAYER</h1>
+    <button id="showCharCategory">Play</button>
+    </br>
+    </br>
+    <button id="showInstructions">How to Play</button>
+    </br>
+    </br>
+    <button id="showSources">Credits/Options</button>
+    </br>
+    <audio id="menuMusic" controls>
+<source src="https://gdurl.com/faRu" type="audio/wav">
+</audio>
+  </div>
+
+  <div id="instructions">
+    <h1>How to Play</h1>
+    <p id="howTo">
+      Athens is under attack by a horde of monsters summoned by the dreadful Typhon! Defend the city as a hero, battling against old enemies.
+      </br>
+      </br>
+      You have 180 seconds to defeat as many monsters as you can. they will progressively increase in difficulty as you slay more. To attack them, you will need to answer questions in the category you select. Type the answer in the provided box, and if it is
+      correct, you will be given another question, and you will inflict damage upon your foe. For questions that require a number to answer, type the number key rather than the spelling of the number. Use all lowercase letters. For vocabulary questions,
+      give the first and second principle parts on verbs unless stated otherwise. For nouns, give the nominative and genitive. In both cases, use a comma and space to separate the two. On adjectives, simply type the first word in the dictionary entry,
+      which is usually the masculine form. </br>
+      </br> Do not fail Athens!
+      </br>
+      </br>
+      <button id="showMenu">Return</button>
+    </p>
+  </div>
+
+  <div id="characterMenu">
+    <h1 class="stretching"> Choose your character! </h1>
+    <div id="hercules" class="char"></div>
+    <div id="theseus" class="char"></div>
+    <div id="atalanta" class="char"></div>
+    <p id="charInfo">Hover your mouse over a character to read their description.</p>
+    </br>
+    </br>
+    <button id="showMenu6">Return</button>
+  </div>
+
+  <div id="categoryMenu">
+    <h1> Categories </h1>
+    <button id="setMyth">Mythology</button>
+    <button id="setPmaq">PMAQ</button>
+    </br>
+    </br>
+    <button id="setMonarchyAndRepublic">Monarchy & Republic</button>
+    <button id="setEmpire">Empire</button>
+    </br>
+    </br>
+    <button id="setVocabulary">Vocabulary</button>
+    <button id="setCustoms">Customs</button>
+    </br>
+    </br>
+    <button id="setLiterature">Latin Literature</button>
+    <button id="setGeography">Geography</button>
+    </br>
+    </br>
+    <button id="showMenu3">Return</button>
+    </br>
+  </div>
+
+  <div id="content">
+    <div id="block">
+      </br>
+      <h1>Answer below!</h1>
+      <p id="question" class="fade-text"></p>
+      <input id="input" type="text" name="input" style="text-transform:lowercase">
+      </br>
+      <p id="questTimeLeft"></p>
+      <p id="timeLeft"></p>
+      </br>
+    </div>
+    <div id="characters">
+      <div id="hercules1" class="bobbing"></div>
+      <div id="theseus1" class="bobbing"></div>
+      <div id="atalanta1" class="bobbing"></div>
+      <div id="cerberus" class="bobbing"></div>
+      <div id="minotaur" class="bobbing"></div>
+      <div id="caly-boar" class="bobbing"></div>
+      </br>
+      </br>
+      <div id="playerHealth" class="prog-bar">
+      </div>
+      <div id="enemyHealth" class="prog-bar1">
+      </div>
+      </br>
+      <button id="showMenu2">Return</button>
+    </div>
+    <audio id="battleMusic" controls>
+<source src="https://gdurl.com/DDrM" type="audio/wav">
+</audio>
+    <audio id="attackMusic" controls>
+<source src="https://gdurl.com/5cF7" type="audio/wav">
+</audio>
+  </div>
+
+  <div id="sources">
+    <h1>Credits</h1>
+    <p>
+      FJCL Regional Study Guides
+      </br>
+      </br>
+      Edith Hamilton's Mythology
+      </br>
+      </br>
+      Pixel Art Maker was used for creating the original sprites
+      </br>
+      </br>
+      BeepBox was used for creating the original music and sounds
+      </br>
+      </br>
+      gdURL and Google Drive for hosting files
+      </br>
+      </br>
+      w3schools for javascript/css/html help and examples
+      </br>
+      </br>
+      CodePen for hosting the code/platform created on
+      </br>
+      </br>
+      <button id="muteMusic">Toggle Music</button>
+      <button id="muteSound">Toggle Sound</button>
+    </p>
+    <button id="showMenu4">Return</button>
+  </div>
+
+  <div id="scoreMenu">
+    <h2> Your final score </h2>
+    <p id="score"></p>
+    <p id="beastScore"></p>
+    <p id="scoreAverage"></p>
+    <button id="showMenu5">Return</button>
+    <audio id="victoryMusic" controls>
+<source src="https://gdurl.com/fvyq" type="audio/wav">
+</audio>
+  </div>
+
+  <div id="lossMenu">
+    <p> You have been defeated! Athens will fall to Typhon's horde! </p>
+    <button id="showMenu7">Return</button>
+    <audio id="defeatMusic" controls>
+<source src="https://gdurl.com/vcqe" type="audio/wav">
+</audio>
+  </div>
+  <audio id="buttonMusic" controls>
+<source src="https://gdurl.com/L0WA" type="audio/wav">
+</audio>
+
+  <script src="js/main.js"></script>
+</body>
+
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+</style>

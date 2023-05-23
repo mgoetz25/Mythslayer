@@ -1,0 +1,369 @@
+body {
+  background:  linear-gradient(135deg, rgba(170, 59, 177,1), rgba(88, 42, 126,1));;
+  height: 100%;
+  width: device-width;
+  background-attachment: fixed;
+  font-family: "Press Start 2P";
+  letter-spacing: -2x;
+  transform: scale(0.8,1);
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#title {
+  font-size: 100px;
+  -webkit-text-stroke: 1px purple;
+  color: #d18a0d;
+}
+
+#menu {
+  text-align: center;
+  color: #d19b2f;
+}
+
+#howTo {
+  text-align: center;
+  color: #d19b2f;
+  line-height: 1.6;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+#categoryMenu {
+  text-align: center;
+  color: #d19b2f;
+}
+
+#characterMenu {
+  text-align: center;
+  color: #d19b2f;
+}
+
+#charInfo {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#hercules {
+  width: 160px;
+  height: 210px;
+  right: 70px;
+  position: relative;
+  display: inline-block;
+  background: url(https://gdurl.com/BGpZ);
+}
+
+#hercules1 {
+  width: 160px;
+  height: 210px;
+  left: -300px;
+  position: relative;
+  display: inline-block;
+  background: url(https://gdurl.com/BGpZ);
+}
+
+#theseus {
+  width: 160px;
+  height: 210px;
+  position: relative;
+  display: inline-block;
+  background: url(https://gdurl.com/vQhO);
+}
+
+#theseus1 {
+  width: 160px;
+  height: 210px;
+  left: -300px;
+  position: relative;
+  display: inline-block;
+  background: url(https://gdurl.com/vQhO);
+}
+
+#atalanta {
+  width: 160px;
+  height: 200px;
+  right: -50px;
+  position: relative;
+  display: inline-block;
+  background: url(https://gdurl.com/V6Fzo);
+}
+
+#atalanta1 {
+  width: 160px;
+  height: 200px;
+  left: -300px;
+  position: relative;
+  display: inline-block;
+  background: url(https://gdurl.com/V6Fzo);
+}
+
+#cerberus {
+  width: 440px;
+  height: 270px;
+  left: 500px;
+  position: relative;
+  display: inline-block;
+  background: url(https://gdurl.com/mD6w);
+}
+
+#minotaur {
+  width: 190px;
+  height: 250px;
+  left: 500px;
+  position: relative;
+  display: inline-block;
+  background: url(https://gdurl.com/vKd9B);
+}
+
+#caly-boar {
+  width: 300px;
+  height: 160px;
+  left: 500px;
+  position: relative;
+  display: inline-block;
+  background: url(https://gdurl.com/l5id);
+}
+
+.char:hover {
+  box-shadow: 0px 0px 5px 5px;
+  -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+#content {
+  text-align: center;
+  color: #d19b2f;
+  background: url(https://gdurl.com/sIKx);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-left: 240px;
+  margin-right: 265px;
+  margin-top: 80px;
+  height: 100%;
+  width: device-width;
+  background-position: center;
+}
+
+#block {
+  background: linear-gradient(135deg, rgba(170, 59, 177,0.9), rgba(88, 42, 126,0.9));
+  margin-left: 200px;
+  margin-right: 200px;
+  width: device-width;
+  height: 100%;
+  border-radius: 25px;
+}
+
+#characters {
+  transform: scale(0.588,0.714);
+}
+
+#playerHealth {
+  color: white;
+  background-color: green;
+  position: relative;
+  display: inline-block;
+  border-radius: 7px;
+  height: 18px;
+  left: -375px;
+}
+
+#enemyHealth {
+  height: 18px;
+  color: white;
+  background-color: red;
+  position: relative;
+  display: inline-block;
+  border-radius: 7px;
+  left: 500px;
+}
+
+.prog-bar {
+  display: inline-block;
+  text-align: center;
+  width: 170px;
+  left: -375px;
+}
+
+.prog-bar1 {
+  display: inline-block;
+  text-align: center;
+  width: 170px;
+  left: 500px;
+}
+
+#scoreMenu {
+  text-align: center;
+  color: #d19b2f;
+}
+
+#lossMenu {
+  text-align: center;
+  color: #d19b2f;
+}
+
+#scoreAverage {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#sources {
+  text-align: center;
+  color: #d19b2f;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#instructions {
+  text-align: center;
+  color: #d19b2f;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+button {
+  font-family: "Press Start 2P";
+  font-size: 20px;
+  letter-spacing: -2x;
+  transform: scale(0.8,1);
+  background-color: #5e0266;
+  color: #d19b2f;
+  border: 0px;
+  border-radius: 1px;
+  padding: 0px;
+  height: 50px;
+  width: 500px;
+  opacity: 0.8;
+  cursor: pointer;
+  margin-bottom: 10px;
+  -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+  background-color: #66023c;
+  box-shadow: 10px 10px;
+}
+
+input[type="text"] {
+  color: #d19b2f;
+  background: #5e0266;
+  border: none;
+  font-family: "Press Start 2P";
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+@keyframes fade {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fade-text {
+  animation: fade 1s;
+}
+
+@keyframes bob {
+  0% {background-position-y: 0px;}
+  100% {background-position-y: -3px;}
+}
+
+.bobbing {
+  animation: bob 0.4s infinite steps(2);
+}
+
+@keyframes move {
+  0% {background-position-x: 0px;}
+  33% {background-position-x: -640px;}
+  66% {background-position-x: -1290px;}
+  67% {background-position-x: 0px;}
+  100% {background-position-x: -640px;}
+}
+
+@keyframes run {
+  0% {left: -300px;}
+  50% {left: 250px;}
+  100% {left: -300px;}
+}
+
+.moving {
+ animation: move 1.51s 2 steps(4), run 2.16s ease;
+}
+
+@keyframes enemyRun {
+  0% {left: 500px;}
+  50% {left: 100px;}
+  100% {left: 500px;}
+}
+
+@keyframes cerbRun {
+  0% {background-position-x: 0px;}
+  33% {background-position-x: -1760px;}
+  66% {background-position-x: -3505px;}
+  67% {background-position-x: 0px;}
+  100% {background-position-x: -1760px;}
+}
+
+.movingCerb {
+  animation: cerbRun 1.51s 2 steps(4), enemyRun 2.16s ease;
+}
+
+@keyframes minoRun {
+  0% {background-position-x: 0px;}
+  33% {background-position-x: -760px;}
+  66% {background-position-x: -1520px;}
+  67% {background-position-x: 0px;}
+  100% {background-position-x: -760px;}
+}
+
+.movingMino {
+  animation: minoRun 1.51s 2 steps(4), enemyRun 2.16s ease;
+}
+
+@keyframes boarRun {
+  0% {background-position-x: 0px;}
+  33% {background-position-x: -1200px;}
+  66% {background-position-x: -2400;}
+  67% {background-position-x: 0;}
+  100% {background-position-x: -1200px;}
+}
+
+.movingBoar {
+  animation: boarRun 1.51s 2 steps(4), enemyRun 2.16s ease;
+}
+
+@keyframes stretch {
+  0% {transform: scale(0.9,0.9)};
+  100% {transform: scale(1.1,1.1)};
+}
+
+.stretching {
+  animation: stretch 0.8s infinite alternate ease;
+}
+
+@keyframes textColor {
+  0% {color: #d18a0d;}
+  100% {color: #d19b2f;}
+}
+
+.coloring {
+  animation: textColor 0.5s infinite alternate ease;
+}
+
+@keyframes rain {
+  0% {background-position-x: 0px;background-position-y: 0px;}
+  100% {background-position-x: 1900px;background-position-y: 900px;}
+}
+
+.raining {
+  animation: rain 5s steps(300) infinite;
+}
+
+font-family: 'Press Start 2P', cursive;
